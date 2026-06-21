@@ -306,58 +306,58 @@ main.catalog {
 /* CSS PRODUCT BACKGROUND IMAGES */
 /* Category: Candles */
 .candle-1 {
-  background-image: url('/CANDLE1.jpeg');
+  background-image: url('./CANDLE1.jpeg');
 }
 .candle-2 {
-  background-image: url('/CANDLE2.jpeg');
+  background-image: url('./CANDLE2.jpeg');
 }
 .candle-3 {
-  background-image: url('/CANDLE3.jpeg');
+  background-image: url('./CANDLE3.jpeg');
 }
 .candle-4 {
-  background-image: url('/CANDLE4.jpeg');
+  background-image: url('./CANDLE4.jpeg');
 }
 
 /* Category: Bookmarks */
 .bookmark-1 {
-  background-image: url('/BOOKMARK1.jpeg');
+  background-image: url('./BOOKMARK1.jpeg');
 }
 .bookmark-2 {
-  background-image: url('/BOOKMARK2.jpeg');
+  background-image: url('./BOOKMARK2.jpeg');
 }
 .bookmark-3 {
-  background-image: url('/BOOKMARK3.jpeg');
+  background-image: url('./BOOKMARK3.jpeg');
 }
 .bookmark-4 {
-  background-image: url('/BOOKMARK4.jpeg');
+  background-image: url('./BOOKMARK4.jpeg');
 }
 
 /* Category: Tote Bags */
 .tote-1 {
-  background-image: url('/TOTE1.jpeg');
+  background-image: url('./TOTE1.jpeg');
 }
 .tote-2 {
-  background-image: url('/TOTE2.jpeg');
+  background-image: url('./TOTE2.jpeg');
 }
 .tote-3 {
-  background-image: url('/TOTE3.jpeg');
+  background-image: url('./TOTE3.jpeg');
 }
 .tote-4 {
-  background-image: url('/TOTE4.jpeg');
+  background-image: url('./TOTE4.jpeg');
 }
 
 /* Category: Crochet Items */
 .crochet-1 {
-  background-image: url('/CROCHET1.jpeg');
+  background-image: url('./CROCHET1.jpeg');
 }
 .crochet-2 {
-  background-image: url('/CROCHET2.jpeg');
+  background-image: url('./CROCHET2.jpeg');
 }
 .crochet-3 {
-  background-image: url('/CROCHET3.jpeg');
+  background-image: url('./CROCHET3.jpeg');
 }
 .crochet-4 {
-  background-image: url('/CROCHET4.jpeg');
+  background-image: url('./CROCHET4.jpeg');
 }
 
 /* Footer Styles */
