@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The crafted flames | Premium Handcrafted Items</title>
+  <meta name="description" content="Explore a curated collection of handcrafted candles, bookmarks, tote bags, and crochet items at The crafted flames. Neat, clean, and responsive design.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Container Wrapping the Whole Website -->
+  <div id="app-container">
+    
+    <!-- 1. Nav Div (Only brand name at the left side) -->
+    <nav id="main-nav">
+      <div class="brand-name" id="brand-logo">The crafted flames</div>
+    </nav>
+
+    <!-- 2. Header Div (Welcome to our website) -->
+    <header id="welcome-header">
+      <h1>Welcome to our website</h1>
+      <p>Discover our beautiful, thoughtfully crafted collection of handmade candles, bookmarks, tote bags, and crochet items. Each piece is made with love and care.</p>
+    </header>
+
+    <!-- 3. Section Div (Items will be shown here in 4 categories) -->
+    <main class="catalog">
+      <section id="catalog-section">
+        
+        <!-- Category 1: Candles -->
+        <div class="category-group" id="category-candles">
+          <div class="category-header">
+            <h2 class="category-title">Hand-Poured Candles</h2>
+            <span class="swipe-hint">
+              Swipe/Drag
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="cards-slider-container">
+            <div class="cards-wrapper">
+              
+              <!-- Candle Card 1 -->
+              <div class="product-card" data-id="candle-1" data-title="Warm Amber & Oakmoss" data-price="$24.00" data-category="Candles" data-desc="A cozy blend of warm amber, rich oakmoss, and subtle woodsy undertones. Hand-poured using 100% natural soy wax for a clean, long-lasting burn. Perfect for creating a relaxing atmosphere.">
+                <div class="card-image-wrapper">
+                  <div class="card-image candle-1"></div>
+                  <span class="card-tag">Soy Wax</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Amber & Oakmoss</span>
+                    <span class="product-price">₹ 185</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Candle Card 2 -->
+              <div class="product-card" data-id="candle-2" data-title="Wild Lavender & Honey" data-price="$22.00" data-category="Candles" data-desc="Soothing wild lavender balanced with a sweet note of organic clover honey. This candle helps calm the mind and relieve stress after a long day. Comes in a beautiful reusable glass jar.">
+                <div class="card-image-wrapper">
+                  <div class="card-image candle-2"></div>
+                  <span class="card-tag">Calming</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Lavender & Honey</span>
+                    <span class="product-price">₹ 45 </span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Candle Card 3 -->
+              <div class="product-card" data-id="candle-3" data-title="Smoked Birchwood" data-price="$26.00" data-category="Candles" data-desc="Bring the scent of a crackling fireplace indoors. Smoked birchwood, cedarwood, and a touch of vanilla create a warm, masculine, and sophisticated ambiance. Cruelty-free and phthalate-free.">
+                <div class="card-image-wrapper">
+                  <div class="card-image candle-3"></div>
+                  <span class="card-tag">Woody</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Smoked Birchwood</span>
+                    <span class="product-price">₹25</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Candle Card 4 -->
+              <div class="product-card" data-id="candle-4" data-title="Sweet Vanilla Bean" data-price="$20.00" data-category="Candles" data-desc="Classic sweet vanilla bean mixed with fresh cream and a pinch of warm nutmeg. An absolute crowd pleaser that makes any space feel welcoming, sweet, and comforting. Highly fragranced.">
+                <div class="card-image-wrapper">
+                  <div class="card-image candle-4"></div>
+                  <span class="card-tag">Sweet</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Vanilla Bean</span>
+                    <span class="product-price">₹35</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Bookmarks -->
+        <div class="category-group" id="category-bookmarks">
+          <div class="category-header">
+            <h2 class="category-title">Handcrafted Bookmarks</h2>
+            <span class="swipe-hint">
+              Swipe/Drag
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="cards-slider-container">
+            <div class="cards-wrapper">
+              
+              <!-- Bookmark Card 1 -->
+              <div class="product-card" data-id="bookmark-1" data-title="Hand-stitched Leather" data-price="$12.00" data-category="Bookmarks" data-desc="Made from premium full-grain Italian leather, hand-stitched with waxed linen thread. Develops a beautiful patina over time. The perfect companion for your classic hardcover novels.">
+                <div class="card-image-wrapper">
+                  <div class="card-image bookmark-1"></div>
+                  <span class="card-tag">Leather</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Stitched Leather</span>
+                    <span class="product-price">₹20</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Bookmark Card 2 -->
+              <div class="product-card" data-id="bookmark-2" data-title="Pressed Forget-Me-Not" data-price="$10.00" data-category="Bookmarks" data-desc="Genuine forget-me-not flowers, pressed and preserved in a clear, glass-like resin bookmark. Finished with a raw silk tassel. Brings a piece of spring beauty to every reading session.">
+                <div class="card-image-wrapper">
+                  <div class="card-image bookmark-2"></div>
+                  <span class="card-tag">Floral</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Forget-Me-Not</span>
+                    <span class="product-price">₹20</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Bookmark Card 3 -->
+              <div class="product-card" data-id="bookmark-3" data-title="Elegant Brass Leaf" data-price="$15.00" data-category="Bookmarks" data-desc="A delicate brass bookmark shaped like a Monstera leaf. Polished by hand to a high shine. Lightweight yet durable, it slips easily between pages without damaging them.">
+                <div class="card-image-wrapper">
+                  <div class="card-image bookmark-3"></div>
+                  <span class="card-tag">Metal</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Brass Monstera</span>
+                    <span class="product-price">₹20</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Bookmark Card 4 -->
+              <div class="product-card" data-id="bookmark-4" data-title="Vintage Linen Tassel" data-price="$9.00" data-category="Bookmarks" data-desc="Woven from organic flax linen with vintage-style embroidered edges. Features a hand-knotted cotton fringe tassel. Washable, soft, and brings a delightful tactile feel.">
+                <div class="card-image-wrapper">
+                  <div class="card-image bookmark-4"></div>
+                  <span class="card-tag">Linen</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Vintage Linen</span>
+                    <span class="product-price">₹20</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: Tote Bags -->
+        <div class="category-group" id="category-totes">
+          <div class="category-header">
+            <h2 class="category-title">Aesthetic Tote Bags</h2>
+            <span class="swipe-hint">
+              Swipe/Drag
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="cards-slider-container">
+            <div class="cards-wrapper">
+              
+              <!-- Tote Card 1 -->
+              <div class="product-card" data-id="tote-1" data-title="Natural Canvas Day Bag" data-price="$35.00" data-category="Tote Bags" data-desc="Heavyweight 12oz natural cotton canvas tote bag with reinforced handles. Features double interior pockets to keep your keys, phone, and wallet secure. Excellent for daily commutes.">
+                <div class="card-image-wrapper">
+                  <div class="card-image tote-1"></div>
+                  <span class="card-tag">Cotton</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Canvas Day Bag</span>
+                    <span class="product-price">₹ 200</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Tote Card 2 -->
+              <div class="product-card" data-id="tote-2" data-title="Terracotta Clay Tote" data-price="$38.00" data-category="Tote Bags" data-desc="Naturally dyed canvas tote bag in a gorgeous warm terracotta hue. Fits a 15-inch laptop with room to spare. Has a magnetic button closure at the top. Simple and highly functional.">
+                <div class="card-image-wrapper">
+                  <div class="card-image tote-2"></div>
+                  <span class="card-tag">Natural Dye</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Terracotta Clay</span>
+                    <span class="product-price">₹ 200</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Tote Card 3 -->
+              <div class="product-card" data-id="tote-3" data-title="Sage Green Utility Tote" data-price="$42.00" data-category="Tote Bags" data-desc="A rugged, sage green utility tote bag equipped with front slide-in pockets for quick access. Hand-waxed canvas provides water resistance, making it highly durable for outdoor weekend adventures.">
+                <div class="card-image-wrapper">
+                  <div class="card-image tote-3"></div>
+                  <span class="card-tag">Waxed Canvas</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Sage Utility</span>
+                    <span class="product-price">₹ 200</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Tote Card 4 -->
+              <div class="product-card" data-id="tote-4" data-title="Minimalist Linen Tote" data-price="$30.00" data-category="Tote Bags" data-desc="Lightweight, breathable linen tote bag in a soft cream shade. Features a relaxed, slouchy silhouette that collapses easily. Ideal for farmer's market visits or casual beach outings.">
+                <div class="card-image-wrapper">
+                  <div class="card-image tote-4"></div>
+                  <span class="card-tag">Linen</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Cream Slouchy</span>
+                    <span class="product-price">₹ 200</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4: Crochet Items -->
+        <div class="category-group" id="category-crochet">
+          <div class="category-header">
+            <h2 class="category-title">Hand-Knit Crochet</h2>
+            <span class="swipe-hint">
+              Swipe/Drag
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="cards-slider-container">
+            <div class="cards-wrapper">
+              
+              <!-- Crochet Card 1 -->
+              <div class="product-card" data-id="crochet-1" data-title="Cozy Woolen Cardigan" data-price="$75.00" data-category="Crochet Items" data-desc="Chunky crochet cardigan hand-knit with ultra-soft Merino wool. Features a relaxed balloon sleeve and tortoiseshell buttons. Keeps you incredibly warm and stylish all season long.">
+                <div class="card-image-wrapper">
+                  <div class="card-image crochet-1"></div>
+                  <span class="card-tag">Merino Wool</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Woolen Cardigan</span>
+                    <span class="product-price">₹ 90</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Crochet Card 2 -->
+              <div class="product-card" data-id="crochet-2" data-title="Hand-knit Tulip Bag" data-price="$45.00" data-category="Crochet Items" data-desc="A delightful, pastel-toned handbag shaped with hand-stitched crochet tulip motifs. Features a sturdy cotton lining and inner slip pocket. Lightweight and charming.">
+                <div class="card-image-wrapper">
+                  <div class="card-image crochet-2"></div>
+                  <span class="card-tag">Tulip Knit</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Knit Tulip Bag</span>
+                    <span class="product-price">₹ 150</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Crochet Card 3 -->
+              <div class="product-card" data-id="crochet-3" data-title="Soft Knit Throw Blanket" data-price="$60.00" data-category="Crochet Items" data-desc="Large throw blanket crocheted in a cozy waffle texture. Made with breathable organic cotton yarn. Fits beautifully on the edge of a bed or draped over an armchair.">
+                <div class="card-image-wrapper">
+                  <div class="card-image crochet-3"></div>
+                  <span class="card-tag">Blanket</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Knit Throw</span>
+                    <span class="product-price">₹ 75</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+              <!-- Crochet Card 4 -->
+              <div class="product-card" data-id="crochet-4" data-title="Cute Pumpkin Plushie" data-price="$18.00" data-category="Crochet Items" data-desc="An adorable hand-crocheted pumpkin plushie with a tiny cinnamon stick stem. Filled with hypoallergenic polyfill. The perfect autumn shelf decor or soft desk companion.">
+                <div class="card-image-wrapper">
+                  <div class="card-image crochet-4"></div>
+                  <span class="card-tag">Amigurumi</span>
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-meta">
+                    <span class="product-title">Pumpkin Plushie</span>
+                    <span class="product-price">₹ 65</span>
+                  </div>
+                  <button class="see-more-btn">See More</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <!-- 4. Footer Div -->
+    <footer id="site-footer">
+      <div class="footer-content">
+        <div class="footer-logo">The crafted flames</div>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Shipping Details</a>
+          <a href="#">Crafting Process</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="copyright">
+          &copy; 2026 The crafted flames. Made with care and passion. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Product Details Modal Overlay -->
+  <div class="modal-overlay" id="details-modal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close details">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+      <div class="modal-grid">
+        <div class="modal-image" id="modal-product-img"></div>
+        <div class="modal-content">
+          <span class="modal-tag" id="modal-product-cat">Category</span>
+          <h3 class="modal-title" id="modal-product-title">Product Title</h3>
+          <span class="modal-price" id="modal-product-price">$0.00</span>
+          <p class="modal-desc" id="modal-product-desc">Product description goes here.</p>
+          <div class="modal-actions">
+            <button class="action-btn-primary" id="checkout-btn">Purchase Item</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript File -->
+  <script src="app.js"></script>
+</body>
+</html>
